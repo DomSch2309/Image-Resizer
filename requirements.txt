@@ -1,0 +1,13 @@
+Backend:
+
+Flask
+mysql-connector-python
+Pillow
+requests
+flask-caching
+python-dotenv
+
+Frontend:
+
+nicegui
+httpx

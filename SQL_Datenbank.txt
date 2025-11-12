@@ -1,0 +1,12 @@
+create database image_resizer_db;
+use image_resizer_db;
+
+create table processed_images(
+    id int auto_increment primary key,
+    original_url text not null,
+    new_filename varchar(100) not null unique,
+    target_width int not null,
+    target_height int not null,
+    created_at datetime default current_timestamp
+    index(new_filename)
+)
