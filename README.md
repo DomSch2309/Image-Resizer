@@ -48,4 +48,6 @@ Anwendung starten:
    - Quelltext aus SQL_Datenbank.txt auf MySQL aufspielen
 4. In /app/config.py Datenbankdaten ergänzen (Host, User, Password, DB-Name)
 5. run.py ausführen
-   
+6. http://127.0.0.1:5000 aufrufen
+
+Bis hierher sollte die Anwendung funktionieren, das Frontend habe ich nicht zum Laufen bekommen. 
